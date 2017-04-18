@@ -1,0 +1,4 @@
+#ifndef DEVICEFUNCTION_H
+#define DEVICEFUNCTION_H
+
+#endif // DEVICEFUNCTION_H
