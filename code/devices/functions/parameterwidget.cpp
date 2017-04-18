@@ -72,15 +72,6 @@ void ParameterWidget::init()
     ui->dataTypeBox->addItems(strList);
     ui->dataTypeBox->setCurrentIndex(functionStruct->getDataType().toInt());
 
-    if(functionStruct->getUserLeverLimit() != "")
-    {
-        ui->functionLimit->setText(functionStruct->getUserLeverLimit());
-    }
-    else
-    {
-        ui->functionLimit->setText("0");
-    }
-
     QDEBUG()<<"varindex"<<functionStruct->getVarIndex();
     if(functionStruct->getVarIndex() != 999999)
     {
@@ -102,8 +93,6 @@ void ParameterWidget::init()
     }
     else
     {
-        ui->functionLimit->setEnabled(false);
-        ui->functionLimit->setText("0");
         ui->isDisplay->setEnabled(false);
         ui->varTypeBox->addItem("报警");
         ui->varTypeBox->setEnabled(false);
