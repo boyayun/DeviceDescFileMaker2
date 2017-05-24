@@ -78,7 +78,6 @@ public:
         menuBar->addAction(menu_2->menuAction());
         menu_M->addAction(action_N);
         menu_M->addAction(action_Q);
-        menu_2->addAction(action_H);
         menu_2->addAction(action);
 
         retranslateUi(MainWindow);

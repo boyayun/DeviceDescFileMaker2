@@ -1,0 +1,7 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+<file alias="RC_ICONS">E:/TCL/SVN/Module/4.Tools/code/trunk/DeviceDescFileMaker2/code/RC_ICONS</file>
+<file alias="=">E:/TCL/SVN/Module/4.Tools/code/trunk/DeviceDescFileMaker2/code/=</file>
+<file alias="devout.ico">E:/TCL/SVN/Module/4.Tools/code/trunk/DeviceDescFileMaker2/code/devout.ico</file>
+</qresource>
+</RCC>
